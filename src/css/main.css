@@ -1,3 +1,38 @@
+/* Fonts */
+@font-face {
+    font-family: 'HelveticaNeueLT Condensed';
+    src: url('/src/fonts/HelveticaNeueLT-Condensed.otf');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLT LightCond';
+    src: url('/src/fonts/HelveticaNeueLT-LightCond.otf');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue Regular';
+    src: url('/src/fonts/HelveticaNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Helios Cond';
+    src: url('/src/fonts/Helios-Cond.ttf');
+}
+
+@font-face {
+    font-family: 'HeraldSquareNF';
+    src: url('/src/fonts/HeraldSquareNF.ttf');
+}
+
 body {
-    background: #d7d7d7;
+   background: #d7d7d7;
+}
+
+h1 {
+    font-family: 'HelveticaNeueLT Condensed';
+    font-size: 45px;
+}
+
+.hello {
+    font-family: 'Helios Cond';
 }
