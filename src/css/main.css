@@ -131,3 +131,45 @@ h1, h2, h3, h4, h5, h6, p {
     color: #277db3;
 }
 
+/**** Header__inner ****/
+.header__welcome {
+    padding: 221px 0 500px;
+
+    background: url('../img/intro.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.welcome {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.welcome__item {
+    width: 100%;
+    max-width: 480px;
+}
+
+.welcome__title {
+    font-size: 122px;
+    font-weight: 400;
+    color: #ffffff;
+
+    text-transform: uppercase;
+}
+
+.welcome__subtitle {
+    margin-bottom: 15px;
+
+    font-size: 65px;
+    font-weight: 400;
+    color: #ffffff;
+
+    text-transform: uppercase;
+}
+
+.welcome__text {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.3;
+}
+
