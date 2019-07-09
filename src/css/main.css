@@ -24,15 +24,110 @@
     src: url('/src/fonts/HeraldSquareNF.ttf');
 }
 
+/**** Settings ****/
 body {
-   background: #d7d7d7;
-}
+    margin: 0;
+    padding: 0;
 
-h1 {
     font-family: 'HelveticaNeueLT Condensed';
-    font-size: 45px;
 }
 
-.hello {
-    font-family: 'Helios Cond';
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1380px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/**** Header Top ****/
+.header__social {
+    background-color: #1b1f20;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+}
+
+.social__contacts {
+    display: flex;
+
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.contacts__item {
+    position: relative;
+    padding-left: 25px;
+}
+
+.contacts__item:first-child {
+    margin-right: 20px;
+}
+
+.contacts__icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.icons__link {
+    margin-left: 15px;
+
+    text-decoration: none;
+}
+
+.icons__link:first-child {
+    margin-left: 0;
+}
+
+/*.icons__link:hover {
+    box-shadow: ;
+}*/
+
+/****Header__menu****/
+.header__menu {
+    background-color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px 0;
+}
+
+.nav__link {
+    margin-left: 45px;
+
+    font-size: 22px;
+    color: #1b1f20;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    color: #277db3;
+}
+

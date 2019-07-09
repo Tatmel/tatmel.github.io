@@ -106,7 +106,7 @@ gulp.task('watch', () => {
    //Следить за добавлением новых изображений
    gulp.watch('./src/img/**', gulp.series('img-compress'))
    //Следить за файлами со стилями с нужным расширением
-   gulp.watch('./src/css/**/*.scss', gulp.series('styles'))
+   gulp.watch('./src/css/**/*.css', gulp.series('styles'))
    //Следить за JS файлами
    gulp.watch('./src/js/**/*.js', gulp.series('scripts'))
    //При изменении HTML запустить синхронизацию
