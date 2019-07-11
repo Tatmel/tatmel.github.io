@@ -173,3 +173,103 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.3;
 }
 
+/****About ****/
+.section__about {
+    padding: 35px 0;
+
+    background: url('../img/bg-beige.svg') no-repeat;
+    background-size: cover;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.about__item {
+    width: 40%;
+}
+
+.about__item:last-child {
+    width: 48%;
+}
+
+.item__link {
+    display: block;
+
+    font-size: 0;
+    color: transparent;
+}
+.link {
+    width: 72px;
+    height: 6px;
+    
+    background-color: #fae5d3;
+
+    margin-bottom: 14px;  
+}
+
+.link__sub {
+    width: 100%;
+    height: 2px;
+
+    background-color: #fae5d3;
+
+    margin-bottom: 37px;
+}
+
+.about__prof {
+    font-family: 'HelveticaNeueLT LightCond';
+    font-size: 60px;
+    font-weight: 400;
+    color: #fae5d3;
+    line-height: 1.3;
+
+    text-transform: uppercase;
+}
+
+.about__title {
+    font-family: 'HelveticaNeue Regular';
+    font-size: 63px;
+    color: #ffffff;
+    line-height: 1;
+
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+    margin-bottom: 68px;
+}
+
+.about__text {
+    font-family: 'HelveticaNeue Regular';
+    font-size: 18px;
+    color: #3c3d3e;
+    line-height: 1.6;
+
+    margin-bottom: 55px;
+}
+
+.about__btn {
+    padding: 15px 35px;
+
+    font-family: 'Helios Cond';
+    font-size: 18px;
+    color: #ffffff;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    background-color: #277db3;
+}
+
+/**** Gallery ****/
+.section__gallery {
+    padding: 35px 0;
+
+    background: #f0f1f2;
+}
+
+.link--color {
+    background-color: #79777a;
+}
